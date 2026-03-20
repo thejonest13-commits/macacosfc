@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>El Club · Macacos FC</title>
+  <title>Tienda · Macacos FC</title>
   <link rel="icon" type="image/png" href="logo.png" />
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -20,51 +20,55 @@
     </div>
     <ul class="nav-links" id="nav-links">
       <li><a href="index.html">Inicio</a></li>
-      <li><a href="club.html" class="active">El Club</a></li>
+      <li><a href="club.html">El Club</a></li>
       <li><a href="plantilla.html">Plantilla</a></li>
       <li><a href="partidos.html">Partidos</a></li>
       <li><a href="clasificacion.html">Clasificación</a></li>
-      <li><a href="tienda.html">Tienda</a></li>
+      <li><a href="tienda.html" class="active">Tienda</a></li>
     </ul>
     <button class="hamburger" id="hamburger">&#9776;</button>
   </nav>
 
-  <!-- SOBRE EL CLUB -->
   <div class="page-header">
-    <h1 class="page-header-title">EL CLUB</h1>
+    <h1 class="page-header-title">TIENDA</h1>
   </div>
 
-  <section class="section page-section" id="sobre">
+  <section class="section page-section">
     <div class="container">
-      <div class="about-grid">
-        <div class="about-text">
-          <h3>Nuestra Historia</h3>
-          <p>Macacos FC nació en el corazón del barrio con un grupo de amigos apasionados por el fútbol y con un sueño: competir al máximo nivel. Desde nuestros humildes comienzos en partidos de calle, hemos crecido hasta convertirnos en uno de los equipos más temidos de la liga.</p>
-          <p>Con esfuerzo, dedicación y mucha pasión, los Macacos seguimos evolucionando temporada tras temporada. Nuestros colores, el <strong>rosa y blanco</strong>, representan la energía, la pasión y la determinación de un equipo que nunca se rinde.</p>
-          <div class="about-values">
-            <div class="value-card">
-              <span>🏆</span>
-              <p>Ambición</p>
-            </div>
-            <div class="value-card">
-              <span>💪</span>
-              <p>Esfuerzo</p>
-            </div>
-            <div class="value-card">
-              <span>🤝</span>
-              <p>Unidad</p>
-            </div>
-            <div class="value-card">
-              <span>❤️</span>
-              <p>Pasión</p>
-            </div>
+      <div class="shop-grid">
+
+        <!-- Camiseta Local -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="logo.png" alt="Camiseta Local" class="product-img" />
+            <span class="product-badge local">Local</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Camiseta Local</h3>
+            <p class="product-desc">Equipación oficial Macacos FC · Temporada 2025/26</p>
+            <p class="product-price">30 €</p>
+            <a href="https://ig.me/m/macacosfclub" target="_blank" class="btn btn-primary product-btn">
+              ¡La quiero!
+            </a>
           </div>
         </div>
-        <div class="about-badge">
-          <div class="badge-circle">
-            <img src="logo.png" alt="Macacos FC" class="badge-logo-img" />
+
+        <!-- Camiseta Visitante -->
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="logo.png" alt="Camiseta Visitante" class="product-img" />
+            <span class="product-badge visitante">Visitante</span>
+          </div>
+          <div class="product-info">
+            <h3 class="product-name">Camiseta Visitante</h3>
+            <p class="product-desc">Equipación oficial Macacos FC · Temporada 2025/26</p>
+            <p class="product-price">30 €</p>
+            <a href="https://ig.me/m/macacosfclub" target="_blank" class="btn btn-primary product-btn">
+              ¡La quiero!
+            </a>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -73,7 +77,6 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-logo">
-        
         <span>MACACOS FC</span>
       </div>
       <p class="footer-slogan">EST 2003</p>
