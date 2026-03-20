@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partidos · Macacos FC</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-logo">
+      <a href="index.html" style="display:flex;align-items:center;gap:10px;text-decoration:none;">
+        <img src="logo.png" alt="Macacos FC" class="logo-icon-img" />
+        <span class="logo-text">MACACOS <span>FC</span></span>
+      </a>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="club.html">El Club</a></li>
+      <li><a href="plantilla.html">Plantilla</a></li>
+      <li><a href="partidos.html" class="active">Partidos</a></li>
+      <li><a href="clasificacion.html">Clasificación</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+  </nav>
+
+  <!-- PARTIDOS -->
+  <div class="page-header">
+    <h1 class="page-header-title">PARTIDOS</h1>
+  </div>
+
+  <section class="section page-section" id="partidos">
+    <div class="container">
+      <div class="matches-tabs">
+        <button class="tab-btn active" data-tab="proximos">Próximos</button>
+        <button class="tab-btn" data-tab="resultados">Resultados</button>
+      </div>
+
+      <!-- Próximos partidos -->
+      <div class="tab-content active" id="proximos">
+        <div class="match-card upcoming">
+          <div class="match-date">
+            <span class="match-day">22</span>
+            <span class="match-month">MAR</span>
+          </div>
+          <div class="match-teams">
+            <span class="team home">AD BLAS</span>
+            <span class="match-vs">VS</span>
+            <span class="team away">Macacos FC</span>
+          </div>
+          <div class="match-info">
+            <span>⏰ 11:10h</span>
+            <span>📍 <a href="https://www.google.com/maps/place/Campo+F%C3%BAtbol+Polideportivo+Breog%C3%A1n/@40.4372585,-3.6608093,348m/data=!3m1!1e3!4m6!3m5!1s0xd422f34eefb8aaf:0x224282bdee83c581!8m2!3d40.4375661!4d-3.6605818!16s%2Fg%2F11bwtdf81z?entry=ttu&g_ep=EgoyMDI2MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">IDB Parque Breogán F7</a></span>
+          </div>
+        </div>
+        <div class="match-card upcoming">
+          <div class="match-date">
+            <span class="match-day">29</span>
+            <span class="match-month">MAR</span>
+          </div>
+          <div class="match-teams">
+            <span class="team home">Willoughby City FC</span>
+            <span class="match-vs">VS</span>
+            <span class="team away">Macacos FC</span>
+          </div>
+          <div class="match-info">
+            <span>⏰ 12:45h</span>
+            <span>📍 <a href="https://www.google.com/maps/place/Instalaci%C3%B3n+Deportiva+Municipal+Torrespa%C3%B1a/@40.4201598,-3.6612259,284m/data=!3m1!1e3!4m10!1m2!2m1!1s+Campo+F%C3%BAtbol-7+Torrespa%C3%B1a!3m6!1s0xd422f530d23215b:0x20aee7d9e5b94150!8m2!3d40.4210434!4d-3.6611141!15sChtDYW1wbyBGw7p0Ym9sLTcgVG9ycmVzcGHDsWFaHSIbY2FtcG8gZsO6dGJvbCA3IHRvcnJlc3Bhw7FhkgEOc3BvcnRzX2NvbXBsZXiaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTmFkMk5VUXpOUlJSQULgAQD6AQQIABBB!16s%2Fg%2F11bwn5vpcs?entry=ttu&g_ep=EgoyMDI2MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">Campo Fútbol-7 Torrespaña</a></span>
+          </div>
+        </div>
+        <div class="match-card upcoming">
+          <div class="match-date">
+            <span class="match-day">12</span>
+            <span class="match-month">ABR</span>
+          </div>
+          <div class="match-teams">
+            <span class="team home">Macacos FC</span>
+            <span class="match-vs">VS</span>
+            <span class="team away">Bebesiktas FC</span>
+          </div>
+          <div class="match-info">
+            <span>⏰ 13:20h</span>
+            <span>📍 <a href="https://www.google.com/maps/place/Polideportivo+de+La+Elipa/@40.4145354,-3.6549429,348m/data=!3m1!1e3!4m15!1m8!3m7!1s0xd4225f8d6b4b5b1:0x24b34f0041e88cde!2sMedia+Legua,+Moratalaz,+28030+Madrid!3b1!8m2!3d40.4098442!4d-3.66209!16s%2Fg%2F121qyn19!3m5!1s0xd4225b499a6e7bb:0x50775a66776b6c7f!8m2!3d40.4144971!4d-3.6560066!16s%2Fg%2F11fm9m_0rh?entry=ttu&g_ep=EgoyMDI2MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">Fútbol 7A La Elipa</a></span>
+          </div>
+        </div>
+        <div class="match-card upcoming">
+          <div class="match-date">
+            <span class="match-day">19</span>
+            <span class="match-month">ABR</span>
+          </div>
+          <div class="match-teams">
+            <span class="team home">Chocita F.C</span>
+            <span class="match-vs">VS</span>
+            <span class="team away">Macacos FC</span>
+          </div>
+          <div class="match-info">
+            <span>⏰ 10:35h</span>
+            <span>📍 <a href="https://www.google.com/maps/place/Instalaci%C3%B3n+Deportiva+Municipal+Torrespa%C3%B1a/@40.4201598,-3.6612259,284m/data=!3m1!1e3!4m10!1m2!2m1!1s+Campo+F%C3%BAtbol-7+Torrespa%C3%B1a!3m6!1s0xd422f530d23215b:0x20aee7d9e5b94150!8m2!3d40.4210434!4d-3.6611141!15sChtDYW1wbyBGw7p0Ym9sLTcgVG9ycmVzcGHDsWFaHSIbY2FtcG8gZsO6dGJvbCA3IHRvcnJlc3Bhw7FhkgEOc3BvcnRzX2NvbXBsZXiaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVTmFkMk5VUXpOUlJSQULgAQD6AQQIABBB!16s%2Fg%2F11bwn5vpcs?entry=ttu&g_ep=EgoyMDI2MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">Campo Fútbol-7 Torrespaña</a></span>
+          </div>
+        </div>
+        <div class="match-card upcoming">
+          <div class="match-date">
+            <span class="match-day">26</span>
+            <span class="match-month">ABR</span>
+          </div>
+          <div class="match-teams">
+            <span class="team home">Macacos FC</span>
+            <span class="match-vs">VS</span>
+            <span class="team away">Jagger de Munich</span>
+          </div>
+          <div class="match-info">
+            <span>⏰ 09:00h</span>
+            <span>📍 <a href="https://www.google.com/maps/place/Campo+F%C3%BAtbol+Polideportivo+Breog%C3%A1n/@40.4372585,-3.6608093,348m/data=!3m1!1e3!4m6!3m5!1s0xd422f34eefb8aaf:0x224282bdee83c581!8m2!3d40.4375661!4d-3.6605818!16s%2Fg%2F11bwtdf81z?entry=ttu&g_ep=EgoyMDI2MDMxOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">IDB Parque Breogán F7</a></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resultados -->
+      <div class="tab-content" id="resultados">
+        <div class="match-card result draw">
+          <div class="match-date">
+            <span class="match-day">15</span>
+            <span class="match-month">MAR</span>
+          </div>
+          <div class="match-teams">
+            <span class="team home">Macacos FC</span>
+            <span class="match-score">1 - 1</span>
+            <span class="team away">AC Frío</span>
+          </div>
+          <div class="result-badge draw-badge">Empate</div>
+        </div>
+        <div class="match-card result win">
+          <div class="match-date">
+            <span class="match-day">08</span>
+            <span class="match-month">MAR</span>
+          </div>
+          <div class="match-teams">
+            <span class="team home">Willoughby City FC</span>
+            <span class="match-score">1 - 6</span>
+            <span class="team away">Macacos FC</span>
+          </div>
+          <div class="result-badge win-badge">Victoria</div>
+        </div>
+        <div class="match-card result loss">
+          <div class="match-date">
+            <span class="match-day">01</span>
+            <span class="match-month">MAR</span>
+          </div>
+          <div class="match-teams">
+            <span class="team home">Macacos FC</span>
+            <span class="match-score">1 - 4</span>
+            <span class="team away">Sociedad Recreativa</span>
+          </div>
+          <div class="result-badge loss-badge">Derrota</div>
+        </div>
+        <div class="match-card result loss">
+          <div class="match-date">
+            <span class="match-day">22</span>
+            <span class="match-month">FEB</span>
+          </div>
+          <div class="match-teams">
+            <span class="team home">Schalke Temeto 04</span>
+            <span class="match-score">5 - 0</span>
+            <span class="team away">Macacos FC</span>
+          </div>
+          <div class="result-badge loss-badge">Derrota</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        
+        <span>MACACOS FC</span>
+      </div>
+      <p class="footer-slogan">EST 2003</p>
+      <p class="footer-copy">&copy; 2026 Macacos FC · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
