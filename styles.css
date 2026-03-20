@@ -1202,18 +1202,18 @@ body {
 
 .product-img-wrap {
   position: relative;
-  background: linear-gradient(135deg, #ffe0f0, #fff5fa);
-  padding: 40px;
+  background: #f5f5f5;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .product-img {
-  width: 180px;
-  height: 180px;
+  width: 100%;
+  height: auto;
+  display: block;
   object-fit: contain;
-  mix-blend-mode: multiply;
 }
 
 .product-badge {
