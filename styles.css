@@ -1417,35 +1417,48 @@ body {
     font-size: 36px;
   }
   .match-card {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 8px;
-    padding: 12px;
+    padding: 12px 10px;
+  }
+  .match-date {
+    min-width: 36px;
   }
   .match-day {
-    font-size: 26px;
-  }
-  .match-month {
-    font-size: 10px;
-  }
-  .match-teams {
-    gap: 8px;
-  }
-  .team {
-    font-size: 13px;
-  }
-  .match-vs {
-    font-size: 15px;
-  }
-  .match-score {
     font-size: 22px;
   }
-  .match-info {
-    width: 100%;
+  .match-month {
+    font-size: 9px;
+  }
+  .match-teams {
+    gap: 6px;
+    flex: 1;
+    overflow: hidden;
+  }
+  .team {
     font-size: 11px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90px;
+  }
+  .match-vs {
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+  .match-score {
+    font-size: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .match-info {
+    display: none;
   }
   .result-badge {
-    font-size: 10px;
-    padding: 4px 10px;
+    font-size: 9px;
+    padding: 4px 8px;
+    min-width: 60px;
+    flex-shrink: 0;
   }
 }
 
